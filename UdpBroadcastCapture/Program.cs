@@ -32,7 +32,7 @@ namespace UdpBroadcastCapture
                     //Parse(message);
                 }
             }
-        }
+        } 
 
         // To parse data from the IoT devices in the teachers room, Elisagårdsvej
         private static void Parse(string response)
