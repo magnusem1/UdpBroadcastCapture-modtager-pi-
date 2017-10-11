@@ -37,6 +37,7 @@ namespace UdpBroadcastCapture
         // To parse data from the IoT devices in the teachers room, Elisagårdsvej
         private static void Parse(string response)
         {
+
             string[] parts = response.Split(' ');
             foreach (string part in parts)
             {
